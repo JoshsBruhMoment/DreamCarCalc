@@ -6,5 +6,6 @@ class Main {
    Scanner myObj = new Scanner (System.in);
 System.out.println("Please type your dream car and it's price");
 String name = myObj.nextLine();
+double price = myObj.nextDouble();
   }
 }
